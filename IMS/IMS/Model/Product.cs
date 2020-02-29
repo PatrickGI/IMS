@@ -1,5 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.IO;
 using System.Text;
 
 namespace IMS
@@ -8,7 +12,6 @@ namespace IMS
     {
         public string name { get; set; }
         public string desc { get; set; }
-        //public BitmapImage img { get; set; }
         public string img { get; set; }
     }
 
@@ -16,6 +19,4 @@ namespace IMS
     {
         public List<Product> product { get; set; }
     }
-
-
 }
