@@ -10,9 +10,14 @@ namespace IMS
 {
     public class Product
     {
+        
         public string name { get; set; }
+
+        
         public string desc { get; set; }
-        public string img { get; set; }
+
+        
+        public string filepath { get; set; }
     }
 
     public class ProductList
